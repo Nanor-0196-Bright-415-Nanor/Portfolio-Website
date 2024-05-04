@@ -703,6 +703,7 @@
   /* contact */
   #contacts {
    margin-top: 2rem;
+  
 
 }
 
@@ -716,6 +717,7 @@
 .contact-me{
    flex-basis: 100%;
    width: 100%;
+   margin-bottom: 6rem;
 
 }
 
@@ -734,13 +736,14 @@
   text-align: center;
  margin: 0 auto;
 
+
 }
 
 
 input,textarea {
    width: 100%;
    border: none;
-   margin: 15px 5px;
+   margin: 30px 5px;
    border-radius: 20px;
    background-color: #333;
    outline: none;
