@@ -35,8 +35,8 @@
  }
 
  #header-ul ul li{
-    display: inline-block;
-    padding: 0px 40px;
+    display: block;
+    margin: 10px;
     list-style-type: none;
   
     
@@ -240,7 +240,7 @@
   #row-service {
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
-   gap: 40px;
+   gap: 70px;
    
   }
 
@@ -305,7 +305,7 @@
     #portfolioImages{ 
       display: grid;
    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
-   gap: 20px;
+   gap: 60px;
   
   
    }
@@ -376,22 +376,28 @@
       transform: translateY(-10px);
        
    }
-
-   #btn-port a{
-     text-decoration: none;
-     margin: calc(100vh - 1.4%);
-     color: white;
+   #btn-port{
+      color: white;
      border: 2px solid white;
      padding: 10px;
+     width: 150px;
      font-size: 20px;
-     transition: all 0.7s;
+     margin-left: auto;
+     margin-right: auto;
+   }
+
+  #btn-port a{
+     text-decoration: none;
+    color: blue;
+    display: block;
+    transition: color 0.5s;
  }
 
  #btn-port:hover a{
    background-color: white;
    color: black;
 
- }
+ } */
 
 
  /*  Contact Section */
@@ -554,7 +560,7 @@
 }
 /* About */
 #about {
-   padding-top: 30px;
+   padding-top: 200px;
    color: white;
    
 }
@@ -703,6 +709,7 @@
   /* contact */
   #contacts {
    margin-top: 2rem;
+   background-color: #0d0d0d;
   
 
 }
@@ -749,7 +756,7 @@ input,textarea {
    outline: none;
    color: white;
  
-   font-size: 1.2rem;
+   font-size: 1rem;
   
 
 }
