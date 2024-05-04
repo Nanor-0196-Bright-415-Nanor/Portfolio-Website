@@ -516,12 +516,299 @@
       }
 
       /* Media Queries */
-@media  screen and(max-width: 500px){
-  /* #header{
-   background-image: url("./images/pic.jpg");
-   height: 100vh;
-   width: 100%;
+@media only screen and (max-width: 600px){
+   #header{
+   background: url("images/pic.jpg")no-repeat center center/cover;
+   min-width: 100px;
+   min-height: 100px;
+
+  }  
+
+  #container{
+   margin: 10px auto;
+}
+
+#header-ul img {
+  width: 100px;
+}
+
+
+#header-text {
+   color: white;
+   margin: 85% 0;
+} 
+
+
+#header-text h1 {
+   font-size: 2rem;
+   padding: 5px 10px;
+   font-weight: 800;
+   color: wheat;
+
+}
+#header-text  p {
+   font-size: 1.4rem;
+   padding: 5px 10px;
+   
+
+}
+/* About */
+#about {
+   padding-top: 30px;
+   color: white;
+   
+}
+
+ #about-content-container{
+    display: flex;
+    flex-direction: column;
+     
+    
+}
+
+#about-content-container img{
+   flex-basis: 100%;
+   border-radius: 20px;
+   
+}
+
+ .about-text-container{
+   flex-basis: 100%;   
+   margin: 20px;
   
-  }  */
+}
+
+.about-text-container  h2{
+       font-size: 14px;
+       text-align: center;
+}
+
+.about-text-container p {
+   line-height: 2;
+   font-size: 12px;
+}
+
+#about-text-container-headings{
+    display: flex;
+    flex-direction: column;
+     flex-wrap: wrap;
+     overflow-x: scroll;
+     height: 300px;
+     
+    
+}
+
+#about-text-head-alignment {
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+   color: blue;
+   margin: 12px;
+}
+
+
+  #experience-set {
+     display: none;
+     color: white;
+     margin-left: 5px;
+     line-height: 2;
+     height: 0;
+     width: 150px;
+    
+  }
+  
+
+  
+  #education-set{
+     display: none;
+     color: white;
+     margin-left: 8rem;
+     line-height: 2;
+     width: 150px;
+     height: 0;
+  } 
+ 
+
+  #skill-set {
+     display: none;
+     color: white;
+     margin-left: 18rem;
+     line-height: 2;
+    width: 150px;
+    height: 0;
+  }
+
+ 
+ /* service */
+ #service  {
+   color: white;
+   margin: 50px 30px;
+ }
+
+  #service .service-heading{
+   font-size: 1.4rem;
+   font-weight: 800;
+   padding: 30px 20px;
+   text-align: center;
+  }
+
+  /* portfolio section */
+  #portfolio {
+   padding: 10px;
+   color: white;
+   
+  
+  }
+
+   .portH2 {
+     display: flex;
+     justify-content: center;
+      font-size: 2rem;
+      font-weight: 800;
+      margin-bottom: 60px;
+      color: white;
+   } 
+
+
+  
+
+   #firstPortText h2 {
+      margin: 16px auto 10px;
+      font-size: 22px;
+      font-weight: 500;
+   }
+
+   #firstPortText p {
+     padding: 15px;
+   }
+
+  
+   
+
+   #btn-port {
+     display: flex;
+     justify-content: center; 
+     align-items:flex-start;
+     
+     
+  } 
+
+  #btn-port:hover {
+   background-color: white;
+   color: white;
+
+ } 
+
+  /* contact */
+  #contacts {
+   margin-top: 2rem;
+
+}
+
+#contact-and-form {
+   display: flex;
+   flex-direction: column;
+   margin: 0 10px;
+   color: white;
+}
+
+.contact-me{
+   flex-basis: 100%;
+   width: 100%;
+
+}
+
+.contact-me h3 {
+   font-size: 2rem;
+   font-weight: 800;
+   padding: 12px;
+   text-align: center;
+   color: blue;
+}
+
+
+
+.contact-form {
+  flex-basis: 100%;
+  text-align: center;
+ margin: 0 auto;
+
+}
+
+
+input,textarea {
+   width: 100%;
+   border: none;
+   margin: 15px 5px;
+   border-radius: 20px;
+   background-color: #333;
+   outline: none;
+   color: white;
+ 
+   font-size: 1.2rem;
+  
+
+}
+
+.contact-form button {
+   padding: 15px 18px;
+   border-radius: 12px;
+   font-size: 18px;
+   background-color: blue;
+   color: white;
+   border: transparent;
+}
+
+
+.contact-form button:hover{
+   background-color: hsl(240, 100%, 30%);
+}
+   
+ .fa-phone, .fa-envelope {
+   font-size: 1.4rem;
+   margin: 20px 20px;
+   border: 2px solid blue;
+   padding: 10px;
+   border-radius: 50%;
+   background-color: blue;
+   transition: background-color 0.5;
+   
+}
+
+.fa-phone:hover, .fa-envelope:hover {
+   background-color: black;
+}
+
+.social-icons i {
+   display: inline-block;
+   margin: 30px;
+   font-size: 2rem;
+   background-color: blue;
+   border: 2px solid blue;
+   padding: 10px;
+   border-radius: 50%;
+   transition: background-color 0.5;
+   }
+
+   .social-icons i:hover {
+         background-color: black;
+   }
+
+   .contact-btn{
+      padding: 20px 15px;
+   border-radius: 12px;
+   font-size: 18px;
+   background-color: blue;
+   color: white;
+   margin-top: 20px;
+   margin-left: 60px;
+   margin-bottom: 1rem;
+   cursor: pointer;
+   border: transparent;
+   }
+
+
+
 
 } 
