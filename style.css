@@ -32,15 +32,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+  
  }
 
  #header-ul ul li{
-    display: block;
+    display: inline-block;
     margin: 10px;
     list-style-type: none;
   
     
- }
+ } 
 
  #header-ul li a {
     text-decoration: none;
@@ -520,6 +521,7 @@
       .contact-btn:hover {
          background-color: hsl(240, 100%, 30%);
       }
+      
 
       /* Media Queries */
 @media only screen and (max-width: 600px){
@@ -536,6 +538,8 @@
 
 #header-ul img {
   width: 100px;
+  
+
 }
 
 
@@ -558,6 +562,44 @@
    
 
 }
+#header-ul ul li{
+   display: block;
+   margin-top: 60px;
+   list-style-type: none;
+   
+} 
+
+/* Sidebar  */
+.fa-solid{
+   background-color: white;
+}
+ #ulSide{
+  
+   position: fixed;
+   right: 0;
+   top: 0px;
+   width: 0px;
+   background-color: blue;
+   height: 100vh;
+   font-size: 20px;
+   transition: width .5s;
+   z-index: 5;
+} 
+
+.fa-xmark{
+   position: absolute;
+   top: 5px;
+   left: 5px;
+   margin: 25px;
+   font-size: 30px;
+   background-color:white;
+}
+.fa-bars{
+  margin-right:40px;
+   font-size: 2rem;
+}
+
+
 /* About */
 #about {
    padding-top: 200px;
