@@ -425,7 +425,7 @@
       font-weight: 800;
       padding: 20px;
       text-align: center;
-      color: blue;
+      color: rgb(20, 20, 233);
    }
 /* 
    .contact-me p {
@@ -461,7 +461,7 @@
       padding: 20px 25px;
       border-radius: 12px;
       font-size: 18px;
-      background-color: blue;
+      background-color: rgb(8, 8, 74);
       color: white;
       border: transparent;
    }
@@ -474,10 +474,10 @@
     .fa-phone, .fa-envelope {
       font-size: 2rem;
       margin: 20px 20px;
-      border: 2px solid blue;
+      border: 2px solid rgb(9, 9, 105);
       padding: 10px;
       border-radius: 50%;
-      background-color: blue;
+      background-color: rgb(5, 5, 79);
       transition: background-color 0.5;
       
    }
@@ -490,8 +490,8 @@
       display: inline-block;
       margin: 30px;
       font-size: 2rem;
-      background-color: blue;
-      border: 2px solid blue;
+      background-color: rgb(9, 9, 107);
+      border: 2px solid rgb(10, 10, 104);
       padding: 10px;
       border-radius: 50%;
       transition: background-color 0.5;
@@ -505,7 +505,7 @@
          padding: 20px 25px;
       border-radius: 12px;
       font-size: 18px;
-      background-color: blue;
+      background-color: rgb(9, 9, 102);
       color: white;
       margin-top: 20px;
       cursor: pointer;
@@ -651,7 +651,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-   color: blue;
+   color: rgb(28, 28, 240);
    margin: 12px;
 }
 
@@ -775,7 +775,7 @@
    font-weight: 800;
    padding: 12px;
    text-align: center;
-   color: blue;
+   color: rgb(4, 4, 95);
 }
 
 
@@ -807,7 +807,7 @@ input,textarea {
    padding: 15px 18px;
    border-radius: 12px;
    font-size: 18px;
-   background-color: blue;
+   background-color: rgb(5, 5, 71);
    color: white;
    border: transparent;
 }
@@ -820,10 +820,10 @@ input,textarea {
  .fa-phone, .fa-envelope {
    font-size: 1.4rem;
    margin: 20px 20px;
-   border: 2px solid blue;
+   border: 2px solid rgb(5, 5, 123);
    padding: 10px;
    border-radius: 50%;
-   background-color: blue;
+   background-color: rgb(6, 6, 87);
    transition: background-color 0.5;
    
 }
@@ -836,8 +836,8 @@ input,textarea {
    display: inline-block;
    margin: 30px;
    font-size: 2rem;
-   background-color: blue;
-   border: 2px solid blue;
+   background-color: rgb(3, 3, 57);
+   border: 2px solid rgb(6, 6, 81);
    padding: 10px;
    border-radius: 50%;
    transition: background-color 0.5;
@@ -851,7 +851,7 @@ input,textarea {
       padding: 20px 15px;
    border-radius: 12px;
    font-size: 18px;
-   background-color: blue;
+   background-color: rgb(7, 7, 81);
    color: white;
    margin-top: 20px;
    margin-left: 60px;
